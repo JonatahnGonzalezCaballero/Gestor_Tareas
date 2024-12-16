@@ -1,4 +1,5 @@
 GESTOR DE TAREAS CON TKINDER Y SQLALCHEMY
+
 Este proyecto es una aplicación de escritorio desarrollada en Python para gestionar tareas diarias. 
 Incluye funcionalidades básicas como agregar, listar, marcar y eliminar tareas. 
 Se utiliza Tkinter para la interfaz gráfica y SQLAlchemy para manejar la base de datos SQLite.
