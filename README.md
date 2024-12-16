@@ -29,9 +29,13 @@ Se utiliza Tkinter para crear una interfaz funcional.
 TECNOLOGIAS USADAS
 
 *Python 3.13.3
+
 *Tkinter: Módulo estándar de Python para la creación de interfaces gráficas.
+
 *SQLAlchemy: ORM para el manejo de la base de datos.
+
 *SQLite: Base de datos ligera y local.
+
 
 --------------------------------------------------------------------------------------------------------
 EJECUTAR EL PROYECTO
