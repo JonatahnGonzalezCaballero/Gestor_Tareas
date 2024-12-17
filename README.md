@@ -32,9 +32,9 @@ TECNOLOGIAS USADAS
 
 *Tkinter: Módulo estándar de Python para la creación de interfaces gráficas.
 
-*SQLAlchemy: ORM para el manejo de la base de datos.
+*SQLAlchemy: ORM para el manejo de la base de datos. (se instala con el comando -> pip install sqlalchemy)(Se recomienda usar un entorno virtual)
 
-*SQLite: Base de datos ligera y local.
+*SQLite: Base de datos ligera y local. (Una extencion de Visual Studio Code
 
 
 --------------------------------------------------------------------------------------------------------
