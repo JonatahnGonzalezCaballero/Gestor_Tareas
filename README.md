@@ -41,14 +41,15 @@ TECNOLOGIAS USADAS
 EJECUTAR EL PROYECTO
 
 *Clonamos el repositorio
-git clone https://github.com/JonatahnGonzalezCaballero/Gestor_Tareas.git
 
-cd Gestor_Tareas
+->git clone https://github.com/JonatahnGonzalezCaballero/Gestor_Tareas.git
+
+->cd Gestor_Tareas
 
 
 *Installamos las dependencias
 
-pip install -r requirements.txt
+->pip install -r requirements.txt
 
 Ejecutamos el proyecto
 
