@@ -58,6 +58,12 @@ Ejecutamos el proyecto
 ![image](https://github.com/user-attachments/assets/3df452a4-decc-4022-9fd7-2c6190e13a91)
 
 
+-------------------------------------------------------------------------------------------------
+ANALISIS DE SONARQUBE
+
+![image](https://github.com/user-attachments/assets/6450c3ba-75e8-41ca-a8d3-d0fa20e5c1ad)
+
+
 
 
 
