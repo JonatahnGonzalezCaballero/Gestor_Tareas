@@ -54,6 +54,8 @@ Ejecutamos el proyecto
 
 ![image](https://github.com/user-attachments/assets/8d631a51-0b60-46dc-b34b-12dc8fed702d)
 ![image](https://github.com/user-attachments/assets/99eaad87-6e0d-49e5-aa78-13d49e7846b0)
+![image](https://github.com/user-attachments/assets/3df452a4-decc-4022-9fd7-2c6190e13a91)
+
 
 
 
