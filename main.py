@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import messagebox
+from tkinter import messagebox, Toplevel, Label
 import json
 from sqlalchemy import create_engine, Column, Integer, String, Boolean
 from sqlalchemy.ext.declarative import declarative_base
@@ -43,6 +43,7 @@ class TaskManagerApp:
 
         self.task_listbox = tk.Listbox(root, selectmode=tk.SINGLE, width=50, height=15)
         self.task_listbox.pack()
+        self.task_listbox.bind("<Double-1>", self.show_task_description)
 
         self.complete_button = tk.Button(root, text="Marcar como Completada", command=self.complete_task)
         self.complete_button.pack()
@@ -129,6 +130,24 @@ class TaskManagerApp:
             messagebox.showinfo("Éxito", "Tareas cargadas correctamente.")
         except FileNotFoundError:
             messagebox.showerror("Error", "No se encontró el archivo tasks.json.")
+
+    def show_task_description(self, event):
+        selected = self.task_listbox.curselection()
+        if not selected:
+            return
+
+        task_id = int(self.task_listbox.get(selected[0]).split(":")[0])
+        task = session.query(Task).get(task_id)
+
+        # Crear ventana emergente
+        popup = Toplevel(self.root)
+        popup.title(f"Descripción de la Tarea: {task.title}")
+
+        description_label = Label(popup, text=f"Descripción:\n{task.description if task.description else 'Sin descripción.'}", wraplength=400)
+        description_label.pack(pady=10, padx=10)
+
+        close_button = tk.Button(popup, text="Cerrar", command=popup.destroy)
+        close_button.pack(pady=5)
 
 if __name__ == "__main__":
     root = tk.Tk()
